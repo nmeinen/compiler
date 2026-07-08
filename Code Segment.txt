@@ -1,0 +1,18 @@
+mov ax,[Lit1]
+mov [Ans],ax
+W1:
+mov ax,[N]
+cmp ax,[Lit1]
+JLE L1
+mov ax,[Ans]
+mul [N]
+mov [T1],ax
+mov ax,[T1]
+mov [Ans],ax
+mov ax,[N]
+sub ax,[Lit1]
+mov [T2],ax
+mov ax,[T2]
+mov [N],ax
+jmp W1
+nop

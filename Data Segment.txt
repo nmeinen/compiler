@@ -1,0 +1,12 @@
+N			RESW		1
+Ans			RESW		1
+Lit1			DW		1
+Lit1			DW		1
+Lit1			DW		1
+T1			RESW		1
+T2			RESW		1
+T3			RESW		1
+T4			RESW		1
+T5			RESW		1
+T6			RESW		1
+T7			RESW		1
